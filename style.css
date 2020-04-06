@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ADD8E6;
+    font-size: 15px;
+
+    
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container {
+    /* position: relative; */
+    /* display: block; */
+    width: 420px;
+    height: 790px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    
+}
+
+.header-title {
+    text-align: center;
+    color: #fff;
+
+}
+
+header {
+    text-align: center;
+    padding-top: 40px;
+    line-height: 1.5;
+}
+
+header h3 {
+    font-size: 1.5rem;
+    color:#083e9e;
+    font-weight: 700;
+    font-family: 'U8', sans-serif;
+}
+
+header p {
+    font-size: 0.875rem;
+    color: #4a5568;
+}
+.survey-form {
+    display: block;
+    margin-top: 50px;
+    margin: 30px;
+   
+}
+
+label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #4a5568;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select,
+button {
+    margin-top: 5px;
+    width:358px;
+    height: 50px;
+    padding: 10px;
+    background-color: #edf2f7;
+    border: 0 solid #e2e8f0;
+    border-width: 0;
+    border-radius: 3px;
+    color: #1a202c;
+    outline: none;
+    /* font-size: 0.75rem;
+    font-weight: 700; */
+    
+   
+}
+
+button {
+    color: #fff;
+    margin-top: 0;
+    text-transform: uppercase;
+    background-color: rgb(8, 62, 158);
+    border-width: 0;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #062B6F;
+}
+.login-link {
+    text-align: center;
+    margin-top: 40px;
+}
+
+a {
+    font-family: 'Karla' sans-serif;
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+a:hover {
+    color: #333;
+}
